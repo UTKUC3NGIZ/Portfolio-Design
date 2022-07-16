@@ -43,4 +43,26 @@ body {
     border: 9px solid transparent;
     background: linear-gradient(180deg, #e70faa, #00c0fd) border-box; }
 
+.tech_stack_titles {
+  text-align: center;
+  padding-bottom: 140px; }
+  .tech_stack_titles h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 26px;
+    color: #cccccc;
+    padding-bottom: 50px; }
+  .tech_stack_titles h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 26px;
+    color: #a7a7a7; }
+
+.tech_stack_icon {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 80px; }
+
 /*# sourceMappingURL=main.css.map */
