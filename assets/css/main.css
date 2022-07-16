@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Poppins:wght@300;400;500;700&display=swap");
+a, a:hover {
+  text-decoration: none; }
+
+nav {
+  margin-top: 40px; }
+
+.nav_button {
+  display: flex;
+  justify-content: flex-end; }
+  .nav_button a {
+    padding-right: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    font-family: "DM Sans", sans-serif;
+    color: #a7a7a7; }
+  .nav_button img {
+    width: 30px; }
+
+body {
+  background-color: #191919; }
+
+.container {
+  padding: 0 200px 200px 200px; }
+
+.promotional-contents {
+  display: flex;
+  justify-content: space-between; }
+  .promotional-contents .promotional_text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    color: #d9d9d9; }
+    .promotional-contents .promotional_text span {
+      background: linear-gradient(90deg, #13b0f5 -2.06%, #e70faa 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; }
+  .promotional-contents .promotional_img img {
+    width: 350px;
+    border-radius: 230px;
+    border: 9px solid transparent;
+    background: linear-gradient(180deg, #e70faa, #00c0fd) border-box; }
+
+/*# sourceMappingURL=main.css.map */
