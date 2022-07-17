@@ -2,11 +2,12 @@
     .promotional-contents {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         .promotional_text {
             h1 {
                 font-family: "Poppins", sans-serif;
                 font-weight: 700;
-                font-size: 58px;
+                font-size: 3.625rem;
                 line-height: 70px;
                 color: #d9d9d9;
 
@@ -25,6 +26,9 @@
                 border: 9px solid transparent;
                 background: linear-gradient(180deg, #e70faa, #00c0fd) border-box;
             }
+        }
+        @media only screen and (max-width: 660px) {
+            flex-direction: column;
         }
     }
 }
