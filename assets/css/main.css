@@ -117,6 +117,60 @@ body {
       color: #ffffff;
       text-decoration: underline; }
 
+.about_me_text h3 {
+  font-size: 18px; }
+
+.about_me_education_info .about_me_education_job {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5px; }
+  .about_me_education_info .about_me_education_job h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #CCCCCC; }
+  .about_me_education_info .about_me_education_job span {
+    font-family: "Poppins", sans-serif;
+    background-color: #d7ffe0;
+    color: #018c0f;
+    border-radius: 100px;
+    padding: 6px;
+    text-align: center;
+    font-size: 9px;
+    width: 80px;
+    height: 24px; }
+.about_me_education_info .about_me_education_school {
+  display: flex;
+  justify-content: space-between; }
+  .about_me_education_info .about_me_education_school div:nth-child(1) span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 28px;
+    color: #a7a7a7; }
+  .about_me_education_info .about_me_education_school div:nth-child(2) span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 28px;
+    color: #a7a7a7; }
+
+.contact_text h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 70px;
+  color: #CCCCCC; }
+.contact_text a h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 70px;
+  background: linear-gradient(90deg, #13b0f5 -2.06%, #e70faa 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
 footer .container {
   padding-bottom: 60px; }
 footer .footer_top {
